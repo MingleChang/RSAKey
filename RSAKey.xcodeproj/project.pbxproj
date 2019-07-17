@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F03B2331CE5EEAC05437738 /* Pods_RSAKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC473143EA97A2BAB3F7502 /* Pods_RSAKey.framework */; };
+		8208500722DEEEAD00211D37 /* MCRSAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8208500622DEEEAD00211D37 /* MCRSAUtils.m */; };
+		8208500A22DEEEBE00211D37 /* MCRSAConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8208500922DEEEBE00211D37 /* MCRSAConst.m */; };
 		82D5F0EE22DD9E2400FF5B2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D5F0ED22DD9E2400FF5B2E /* AppDelegate.m */; };
 		82D5F0F122DD9E2400FF5B2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D5F0F022DD9E2400FF5B2E /* ViewController.m */; };
 		82D5F0F422DD9E2400FF5B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D5F0F222DD9E2400FF5B2E /* Main.storyboard */; };
 		82D5F0F622DD9E2600FF5B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D5F0F522DD9E2600FF5B2E /* Assets.xcassets */; };
 		82D5F0F922DD9E2600FF5B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D5F0F722DD9E2600FF5B2E /* LaunchScreen.storyboard */; };
 		82D5F0FC22DD9E2600FF5B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D5F0FB22DD9E2600FF5B2E /* main.m */; };
+		82D5F10522DDA60E00FF5B2E /* MCRSAPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D5F10422DDA60E00FF5B2E /* MCRSAPublicKey.m */; };
+		82D5F10822DDA62700FF5B2E /* MCRSAPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D5F10722DDA62700FF5B2E /* MCRSAPrivateKey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34E7D38F137E9603DDD1EBDE /* Pods-RSAKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAKey.debug.xcconfig"; path = "Target Support Files/Pods-RSAKey/Pods-RSAKey.debug.xcconfig"; sourceTree = "<group>"; };
+		4E497C2A04BAD39B1CF3ECB2 /* Pods-RSAKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAKey.release.xcconfig"; path = "Target Support Files/Pods-RSAKey/Pods-RSAKey.release.xcconfig"; sourceTree = "<group>"; };
+		8208500522DEEEAD00211D37 /* MCRSAUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCRSAUtils.h; sourceTree = "<group>"; };
+		8208500622DEEEAD00211D37 /* MCRSAUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCRSAUtils.m; sourceTree = "<group>"; };
+		8208500822DEEEBE00211D37 /* MCRSAConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCRSAConst.h; sourceTree = "<group>"; };
+		8208500922DEEEBE00211D37 /* MCRSAConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCRSAConst.m; sourceTree = "<group>"; };
 		82D5F0E922DD9E2400FF5B2E /* RSAKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D5F0EC22DD9E2400FF5B2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82D5F0ED22DD9E2400FF5B2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,13 @@
 		82D5F0F822DD9E2600FF5B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82D5F0FA22DD9E2600FF5B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82D5F0FB22DD9E2600FF5B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82D5F10322DDA60E00FF5B2E /* MCRSAPublicKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCRSAPublicKey.h; sourceTree = "<group>"; };
+		82D5F10422DDA60E00FF5B2E /* MCRSAPublicKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCRSAPublicKey.m; sourceTree = "<group>"; };
+		82D5F10622DDA62700FF5B2E /* MCRSAPrivateKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCRSAPrivateKey.h; sourceTree = "<group>"; };
+		82D5F10722DDA62700FF5B2E /* MCRSAPrivateKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCRSAPrivateKey.m; sourceTree = "<group>"; };
+		82D5F10A22DDAED000FF5B2E /* CryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptTool.h; sourceTree = "<group>"; };
+		82D5F10B22DDAED000FF5B2E /* CryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptTool.m; sourceTree = "<group>"; };
+		8CC473143EA97A2BAB3F7502 /* Pods_RSAKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSAKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F03B2331CE5EEAC05437738 /* Pods_RSAKey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F78B070EA58641A19FD2FD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E7D38F137E9603DDD1EBDE /* Pods-RSAKey.debug.xcconfig */,
+				4E497C2A04BAD39B1CF3ECB2 /* Pods-RSAKey.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1FE49ECC4F4AD8002AFA6ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC473143EA97A2BAB3F7502 /* Pods_RSAKey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		82D5F0E022DD9E2400FF5B2E = {
 			isa = PBXGroup;
 			children = (
 				82D5F0EB22DD9E2400FF5B2E /* RSAKey */,
 				82D5F0EA22DD9E2400FF5B2E /* Products */,
+				1F78B070EA58641A19FD2FD7 /* Pods */,
+				1FE49ECC4F4AD8002AFA6ECD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +96,8 @@
 		82D5F0EB22DD9E2400FF5B2E /* RSAKey */ = {
 			isa = PBXGroup;
 			children = (
+				82D5F10922DDAEB900FF5B2E /* Depends */,
+				82D5F10222DDA5ED00FF5B2E /* RSAKey */,
 				82D5F0EC22DD9E2400FF5B2E /* AppDelegate.h */,
 				82D5F0ED22DD9E2400FF5B2E /* AppDelegate.m */,
 				82D5F0EF22DD9E2400FF5B2E /* ViewController.h */,
@@ -71,6 +111,30 @@
 			path = RSAKey;
 			sourceTree = "<group>";
 		};
+		82D5F10222DDA5ED00FF5B2E /* RSAKey */ = {
+			isa = PBXGroup;
+			children = (
+				82D5F10322DDA60E00FF5B2E /* MCRSAPublicKey.h */,
+				82D5F10422DDA60E00FF5B2E /* MCRSAPublicKey.m */,
+				82D5F10622DDA62700FF5B2E /* MCRSAPrivateKey.h */,
+				82D5F10722DDA62700FF5B2E /* MCRSAPrivateKey.m */,
+				8208500522DEEEAD00211D37 /* MCRSAUtils.h */,
+				8208500622DEEEAD00211D37 /* MCRSAUtils.m */,
+				8208500822DEEEBE00211D37 /* MCRSAConst.h */,
+				8208500922DEEEBE00211D37 /* MCRSAConst.m */,
+			);
+			path = RSAKey;
+			sourceTree = "<group>";
+		};
+		82D5F10922DDAEB900FF5B2E /* Depends */ = {
+			isa = PBXGroup;
+			children = (
+				82D5F10A22DDAED000FF5B2E /* CryptTool.h */,
+				82D5F10B22DDAED000FF5B2E /* CryptTool.m */,
+			);
+			path = Depends;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82D5F0FF22DD9E2600FF5B2E /* Build configuration list for PBXNativeTarget "RSAKey" */;
 			buildPhases = (
+				8344F1EAE26BAF267A51534A /* [CP] Check Pods Manifest.lock */,
 				82D5F0E522DD9E2400FF5B2E /* Sources */,
 				82D5F0E622DD9E2400FF5B2E /* Frameworks */,
 				82D5F0E722DD9E2400FF5B2E /* Resources */,
+				96D2A51316CF466AC7A72D29 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +202,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8344F1EAE26BAF267A51534A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RSAKey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D2A51316CF466AC7A72D29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RSAKey/Pods-RSAKey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RSAKey/Pods-RSAKey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RSAKey/Pods-RSAKey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82D5F0E522DD9E2400FF5B2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8208500A22DEEEBE00211D37 /* MCRSAConst.m in Sources */,
+				8208500722DEEEAD00211D37 /* MCRSAUtils.m in Sources */,
 				82D5F0F122DD9E2400FF5B2E /* ViewController.m in Sources */,
+				82D5F10522DDA60E00FF5B2E /* MCRSAPublicKey.m in Sources */,
 				82D5F0FC22DD9E2600FF5B2E /* main.m in Sources */,
 				82D5F0EE22DD9E2400FF5B2E /* AppDelegate.m in Sources */,
+				82D5F10822DDA62700FF5B2E /* MCRSAPrivateKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +395,7 @@
 		};
 		82D5F10022DD9E2600FF5B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E7D38F137E9603DDD1EBDE /* Pods-RSAKey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +413,7 @@
 		};
 		82D5F10122DD9E2600FF5B2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E497C2A04BAD39B1CF3ECB2 /* Pods-RSAKey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
